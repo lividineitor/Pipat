@@ -94,7 +94,7 @@ class Validador {
 
     constructor () {}
 
-    static isBoolean ( booleano) {
+    static isBoolean ( booleano ) {
         return typeof booleano == 'boolean' ;
     }
 
@@ -125,7 +125,7 @@ class RepositorioJugador {
 
     createJugador ( jugador ) {
 
-        if ( Validador.isObject( jugador , Jugador ) == true ) {
+        if ( Validador.isObject ( jugador , Jugador ) == true ) {
 
             // Incrementamos el identificador para el siguiente elemento creado
             this.idFinal ++ ;
